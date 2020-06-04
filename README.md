@@ -24,7 +24,7 @@ Due to that unfortunate prohibit we had to make our own versions of this simple 
 
 Now I can proudly say that I really understand quicksort algorihm, so the effort paid off.
 
-Program aslo passes all tests given by our lecturers.
+Program also passes all tests given by our lecturers.
 
 ## Author
 
