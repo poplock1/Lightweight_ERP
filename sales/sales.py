@@ -17,10 +17,12 @@ import ui
 import data_manager
 # common module
 import common
+from os import path
 
+sales_path = path.dirname(__file__)
 title_list = ["ID", "Game title", "Price in USD", "Month", "Day", "Year"]
 input_list = ["Game title", "Price in USD", "Month", "Day", "Year"]
-filename = "sales/sales.csv"
+filename = path.join(sales_path, "sales.csv")
 game_id = 0
 game_title = 1
 game_price = 2
