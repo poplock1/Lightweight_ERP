@@ -39,6 +39,17 @@ def generate_random(table):
 
 
 def get_ind(table, column, data):
+    """
+    Finds index of item by provided data
+
+    Args:
+        table (list): Data table to work on. First columns containing the keys.
+        column(int): Column to iterate for.
+        data(str): Data to look for.
+
+    Returns:
+        int: Index of data in speciefied column.
+    """
     index = -1
     for element in table:
         index += 1
@@ -47,6 +58,15 @@ def get_ind(table, column, data):
 
 
 def quicksrt(array):
+    """
+    Quicksort algorithm implementation for sorting strings.
+
+    Args:
+        array (list): List to sort.
+
+    Returns:
+        list: Sorted list of strings.
+    """
 
     lst = []
 
